@@ -37,6 +37,6 @@
     width: 40%;
     height: 100%;
     font-weight: 600;
-    overflow-y:auto;
+    overflow-y:hidden;
     /* border: 1px solid black; */
 }

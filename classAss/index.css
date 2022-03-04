@@ -1,0 +1,74 @@
+nav {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    border-top: 2px solid white;
+    /* 
+    border-left: 2px solid white;
+    border-right: 2px solid white; */
+    margin-top: 0px;
+    padding-top: 1rem;
+}
+
+body {
+    background-color: rgb(58, 57, 57);
+    /* border-bottom: 2px solid white; */
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 1px;
+}
+
+nav h1 {
+    margin-bottom: 0px;
+}
+
+nav hr {
+    background: gold;
+    height: 5px !important;
+    width: 100px;
+    margin: 10px auto;
+}
+
+nav p {
+    font-size: 0.8rem;
+}
+
+.container {
+    margin: 0px auto;
+    padding-left: 100px;
+    padding: 0px !important;
+}
+
+.small-containers {
+    background-color: rgb(78, 73, 73);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    row-gap: 20px;
+    /* border: 1px solid green; */
+    padding: 20px 0px;
+    border-left: 10px solid rgb(58, 57, 57);
+    line-height: 1.2;
+}
+
+.small-containers h1 {
+    font-size: 1.5rem;
+}
+
+.small-containers h3 {
+    font-size: 1rem;
+}
+
+.small-containers h1,
+h3 {
+    color: rgb(214, 199, 59);
+}
+
+.btns {
+    margin: 1rem auto !important;
+    width: fit-content;
+    padding: 0.2rem 0.5rem;
+    background-color: rgb(214, 199, 59);
+    border-radius: 1px;
+}
